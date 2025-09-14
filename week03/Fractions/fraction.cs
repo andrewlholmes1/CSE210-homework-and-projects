@@ -7,7 +7,7 @@ public class Fraction
 
     public Fraction()
     {
-        
+
         _top = 1;
         _bottom = 1;
     }
@@ -26,14 +26,14 @@ public class Fraction
 
     public string GetFractionString()
     {
-        
+
         string text = $"{_top}/{_bottom}";
         return text;
     }
 
     public double GetDecimalValue()
     {
-        
+
         return (double)_top / (double)_bottom;
     }
 }
